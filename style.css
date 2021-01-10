@@ -45,3 +45,41 @@ video {
   color: white;
   font-size: 2em;
 }
+
+.time-select button,
+.sound-picker button {
+  color: snow;
+  width: 30%;
+  height: 10%;
+  background: none;
+  border: 2px solid snow;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.time-select button:hover {
+  color: black;
+  background: snow;
+}
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.sound-picker button:nth-child(1) {
+  background: steelblue;
+}
+
+.sound-picker button:nth-child(2) {
+  background: sandybrown;
+}
+
+.sound-picker button img {
+  height: 100%;
+}
